@@ -8,17 +8,11 @@ Authored by **Niels Bodendorfer** under the supervision of
 [**Prof. Dr. Michael zur Muehlen**](https://www.stevens.edu/profile/mmuehlen),  
 **Stevens Institute of Technology**
 
-The `main` branch provides a **high-level overview** of the study.  
-
 ---
 
 ## Source Structure
 
 The following overview illustrates the complete folder structure used in this project, including all components relevant to the implementation and datasets.
-## Source Structure
-
-The following overview illustrates the complete folder structure used in this project, including all components relevant to the implementation and datasets.
-
 ```
 src/
 │
