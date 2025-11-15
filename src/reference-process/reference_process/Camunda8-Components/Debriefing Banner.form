@@ -1,0 +1,22 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "8dbfcfe"
+  },
+  "schemaVersion": 19,
+  "id": "Form_1e5tmwv",
+  "components": [
+    {
+      "content": "<div style=\"font-family: Arial, sans-serif; color: #2e3a59; max-width: 800px; margin: auto; line-height: 1.6; font-size: 16px; text-align: left;\">\n\n  <h2 style=\"color: #1a355b; margin-bottom: 8px;\"> Thank You for Participating! 🥳</h2>\n\n  <p>\n    You have now completed the entire study, including all evaluation tasks and the final questionnaire.\n  </p>\n\n  <p>\n    We sincerely thank you for your time, effort, and thoughtful responses. Your participation contributes to research on human-AI collaboration and decision-making in business contexts.\n  </p>\n\n  <h3 style=\"margin-top: 20px; color: #1a355b;\">Debriefing</h3>\n  <p>\n    The purpose of this experiment was to investigate how <strong>transparency</strong> and <strong>explainability</strong> in AI systems influence <strong>trust</strong> and the willingness to <strong>delegate decisions</strong>. \n    For this reason, you encountered three different conditions during the study:\n  </p>\n\n  <div style=\"background-color: #f5f7fa; padding: 12px; border-left: 4px solid #7f8f9a; border-radius: 4px; margin-bottom: 12px;\">\n    <ul style=\"margin: 0 0 0 18px;\">\n      <p>- <strong>Human-made decision</strong>: a decision made solely by a human reviewer</p>\n      <p>- <strong>AI-supported decision with explanation</strong>: an LLM recommendation plus a short explanation (<em>“white-box”</em>)</p>\n      <p>- <strong>AI-automated decision without explanation</strong>: an automatically generated decision with no further transparency (<em>“black-box”</em>)</p>\n    </ul>\n  </div>\n\n  <p>\n    By comparing these conditions, the study aims to understand how people perceive and evaluate outcomes when AI is involved in decision-making processes.\n  </p>\n\n  <h3 style=\"margin-top: 20px; color: #1a355b;\">Data & Privacy</h3>\n  <div style=\"background-color: #f5f7fa; padding: 12px; border-left: 4px solid #557a95; border-radius: 4px;\">\n    Again, <strong>No personal data</strong> was collected during this study. Only your responses to the tasks and questionnaires were stored. All data will be analyzed anonymously and used exclusively for the Master’s Thesis project.\n  </div>\n\n  <p style=\"margin-top: 20px;\">\n    If you have any questions or are interested in the results of this study, feel free to contact me at: \n    <br><strong><a href=\"mailto:nibo00003@uni-saarland.de\">nibo00003@uni-saarland.de</a></strong>.\n  </p>\n\n  <br>\n    Please click <strong>Complete Task</strong> to finish the experiment. You can then close this browser window.\n  </br>\n</div>\n",
+      "type": "html",
+      "layout": {
+        "row": "Row_1nlete5",
+        "columns": null
+      },
+      "id": "Field_11sdm87"
+    }
+  ],
+  "type": "default"
+}

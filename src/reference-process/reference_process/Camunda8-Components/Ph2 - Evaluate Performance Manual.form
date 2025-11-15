@@ -1,0 +1,82 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "107b38b"
+  },
+  "schemaVersion": 19,
+  "id": "evaluate-performance-11g0nsn",
+  "components": [
+    {
+      "content": "<div style=\"font-size: 14px; font-family: Arial, sans-serif; color: #2e3a59; font-weight: bold; margin-bottom: 1rem;\">\n  Employee 1\n</div>",
+      "type": "html",
+      "layout": {
+        "row": "Row_052ijtq",
+        "columns": null
+      },
+      "id": "Field_0vywopc"
+    },
+    {
+      "label": "Job Description",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0famkra",
+        "columns": null
+      },
+      "id": "Field_1nefpic",
+      "key": "phase2SelectedData.c1_job_description",
+      "readonly": "on"
+    },
+    {
+      "label": "Self Evaluation by Employee",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_18ieqs3",
+        "columns": null
+      },
+      "id": "Field_1orwsyy",
+      "key": "phase2SelectedData.c1_report",
+      "readonly": "on"
+    },
+    {
+      "content": "<div style=\"font-size: 12px; font-family: sans-serif; color: #444; margin-bottom: 0.5rem;\">\n  <strong>Score Evaluation</strong>\n</div>\n\n<table style=\"width: 100%; border-collapse: collapse; font-size: 12px; font-family: sans-serif; color: #000;\">\n  <thead>\n    <tr>\n      <th style=\"border: 1px solid #ccc; padding: 0.4rem; text-align: left; background-color: #f0f0f0;\">Score Range</th>\n      <th style=\"border: 1px solid #ccc; padding: 0.4rem; text-align: left; background-color: #f0f0f0;\">Result</th>\n      <th style=\"border: 1px solid #ccc; padding: 0.4rem; text-align: left; background-color: #f0f0f0;\">Assessment</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">0 – 59</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Separation</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Unsatisfactory</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">60 – 84</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Stay</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Good</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">85 – 100</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Raise</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Excellent</td>\n    </tr>\n  </tbody>\n</table>\n",
+      "type": "html",
+      "layout": {
+        "row": "Row_1hpgmba",
+        "columns": null
+      },
+      "id": "Field_1ma1i7s"
+    },
+    {
+      "label": "Performance Score",
+      "type": "number",
+      "layout": {
+        "row": "Row_1l1uhj6",
+        "columns": 6
+      },
+      "id": "Field_0pt35sv",
+      "key": "ph2_performance_score_manual",
+      "validate": {
+        "required": true,
+        "min": "1",
+        "max": "100"
+      }
+    },
+    {
+      "label": "Explanation",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1l1uhj6",
+        "columns": 10
+      },
+      "id": "Field_1p8cp26",
+      "key": "ph2_explanation_manual",
+      "validate": {
+        "required": true
+      },
+      "description": "Explain in a few words the reasoning behind your chosen performance score."
+    }
+  ],
+  "type": "default"
+}

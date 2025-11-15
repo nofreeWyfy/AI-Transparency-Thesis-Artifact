@@ -1,0 +1,231 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "107b38b"
+  },
+  "schemaVersion": 19,
+  "id": "human-only-label-16psw5l",
+  "components": [
+    {
+      "content": "<div style=\"font-size: 14px; font-family: Arial, sans-serif; color: #2e3a59; font-weight: bold; margin-bottom: 1rem;\">\n  Human-made Decision: No AI Involved\n</div>",
+      "type": "html",
+      "layout": {
+        "row": "Row_1bj7sfx",
+        "columns": null
+      },
+      "id": "Field_054123y"
+    },
+    {
+      "label": "Candidate Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_03x2wdo",
+        "columns": 6
+      },
+      "id": "Field_0izwtw1",
+      "key": "result.name",
+      "readonly": "on"
+    },
+    {
+      "label": "Candidate Position",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_03x2wdo",
+        "columns": 10
+      },
+      "id": "Field_12kue44",
+      "key": "result.position",
+      "readonly": true
+    },
+    {
+      "label": "Candidate Job Description",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1inlnsi",
+        "columns": null
+      },
+      "id": "Field_19sywdj",
+      "key": "result.job_description",
+      "readonly": "on"
+    },
+    {
+      "label": "Self Evaluation",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0m1di55",
+        "columns": null
+      },
+      "id": "Field_1c40ce4",
+      "key": "result.report",
+      "readonly": "on",
+      "description": "Activities were documented by HR in an earlier interview stage. "
+    },
+    {
+      "label": "Human-Conducted Review",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0rbirmj",
+        "columns": null
+      },
+      "id": "Field_1ts1j5g",
+      "key": "textarea_7teps9",
+      "defaultValue": "Jamie Brockhouse, HR Analyst with several years of experience, determined the score and decision below based on a prior interview with the employee.",
+      "readonly": "on"
+    },
+    {
+      "label": "Performance Level",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0pzg0z1",
+        "columns": 6
+      },
+      "id": "Field_0vacy0x",
+      "key": "result.performance_level",
+      "readonly": "on"
+    },
+    {
+      "label": "Human based Score",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0pzg0z1",
+        "columns": 6
+      },
+      "id": "Field_1s8lmzc",
+      "key": "result.performance_score",
+      "readonly": "on"
+    },
+    {
+      "label": "Decision",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0pzg0z1",
+        "columns": 4
+      },
+      "id": "Field_1rt82w7",
+      "key": "result.decision",
+      "readonly": "on"
+    },
+    {
+      "content": "<div style=\"font-size: 12px; font-family: sans-serif; color: #444; margin-bottom: 0.5rem;\">\n  <strong>Score Evaluation</strong>\n</div>\n\n<table style=\"width: 100%; border-collapse: collapse; font-size: 12px; font-family: sans-serif; color: #000;\">\n  <thead>\n    <tr>\n      <th style=\"border: 1px solid #ccc; padding: 0.4rem; text-align: left; background-color: #f0f0f0;\">Score Range</th>\n      <th style=\"border: 1px solid #ccc; padding: 0.4rem; text-align: left; background-color: #f0f0f0;\">Result</th>\n      <th style=\"border: 1px solid #ccc; padding: 0.4rem; text-align: left; background-color: #f0f0f0;\">Assessment</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">0 – 59</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Separation</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Unsatisfactory</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">60 – 84</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Stay</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Good</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">85 – 100</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Raise</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Excellent</td>\n    </tr>\n  </tbody>\n</table>",
+      "type": "html",
+      "layout": {
+        "row": "Row_1u1f4tu",
+        "columns": null
+      },
+      "id": "Field_13b6uh5"
+    },
+    {
+      "label": "Explanation of the Score",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0newmyo",
+        "columns": null
+      },
+      "id": "Field_1ctui76",
+      "key": "result.evaluation",
+      "readonly": "on",
+      "description": "This explanation shows how the score was calculated and what factors contributed to the suggested decision."
+    },
+    {
+      "label": "Do you understand the explanation for this decision?",
+      "values": [
+        {
+          "label": "No",
+          "value": "no"
+        },
+        {
+          "label": "Yes",
+          "value": "yes"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_03s8uxc",
+        "columns": 16
+      },
+      "id": "Field_0hb0v3f",
+      "key": "explanation_understanding",
+      "validate": {
+        "required": true
+      },
+      "description": "Explanation of the score and decision, not the algorithm itself."
+    },
+    {
+      "label": "Do you agree with this decision?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1w7q3u7",
+        "columns": 12
+      },
+      "id": "Field_0bf83rp",
+      "key": "agreement",
+      "description": "*based on the recommended decision above",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Do you want to change this decision?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_1w7q3u7",
+        "columns": null
+      },
+      "id": "Field_12r6cq9",
+      "key": "change_decision",
+      "conditional": {
+        "hide": "=agreement != \"no\""
+      }
+    },
+    {
+      "label": "Your recommended decision",
+      "values": [
+        {
+          "label": "Separation",
+          "value": "separation"
+        },
+        {
+          "label": "Stay",
+          "value": "stay"
+        },
+        {
+          "label": "Raise",
+          "value": "raise"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_1w7q3u7",
+        "columns": null
+      },
+      "id": "Field_08m2p3l",
+      "key": "decision_new",
+      "conditional": {
+        "hide": "=change_decision != \"yes\""
+      }
+    }
+  ],
+  "type": "default"
+}

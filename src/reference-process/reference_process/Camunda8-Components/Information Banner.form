@@ -1,0 +1,45 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "107b38b"
+  },
+  "schemaVersion": 18,
+  "id": "information-banner-1ila347",
+  "components": [
+    {
+      "content": "<div style=\"font-family: Arial, sans-serif; color: #2e3a59; max-width: 800px; margin: auto; line-height: 1.6; font-size: 16px;\">\n\n  <h2 style=\"color: #1a355b; margin-bottom: 8px;\">🧠 Welcome to the Decision-Making Process</h2>\n\n  <p>\n    In this study, you will act as an HR manager at <strong>Tarsiq Inc.</strong>, a mid-sized company offering digital business services like marketing automation, analytics, and enterprise software development.\n  </p>\n\n  <p>\n    Your task is to evaluate employee performance as part of a semi-annual review. You will review the performance reports of employees from different departments.\n  </p>\n\n  <p>\n    <strong>The reports are all submitted at the same time and must be processed one after the other. Please work through the tasks from top to bottom in the given order.</strong>\nBased on each report, you will make a decision that will help you determine the next steps, such as continued employment, a raise, or separation.\nDecisions may vary depending on the case: Some are based on a purely human assessment, others involve AI support or are fully automated (note label).\n  </p>\n\n  <p>\nBelow is an overview of the three possible decision-making modes. Please read these trial conditions carefully:  </p>\n\n  <h3 style=\"margin-top: 24px; color: #1a355b;\">👩🏼‍💼 Condition 1: Human-made Decision</h3>\n  <div style=\"background-color: #f5f7fa; padding: 12px; border-left: 4px solid #557a95; border-radius: 4px;\">\n    A decision is made solely by an experienced HR professional based on the employee report.\n    No AI or algorithmic assistance is used at any point in the process.\n  </div>\n\n  <h3 style=\"margin-top: 24px; color: #1a355b;\">🤖 Condition 2: AI-supported Decision (with explanation)</h3>\n  <div style=\"background-color: #f5f7fa; padding: 12px; border-left: 4px solid #7f8f9a; border-radius: 4px;\">\n    An AI system (chatGPT-4.o) analyzes the employee report and recommends a performance score,\n    along with a short explanation for its suggestion. The explanation may refer to key behavioral indicators\n    (e.g., communication, task completion).\n    <br><br>\n    <em>This condition reflects an \"LLM + post-hoc explanation\" approach (<strong>\"white-box\"</strong>), making the AI decision more interpretable.</em>\n  </div>\n\n  <h3 style=\"margin-top: 24px; color: #1a355b;\">⚙️ Condition 3: AI-automated Decision (No Explanation)</h3>\n  <div style=\"background-color: #f5f7fa; padding: 12px; border-left: 4px solid #999999; border-radius: 4px;\">\n    A decision is generated fully automatically by chatGPT-4.o based only on the employee report.\n    No explanation or human oversight is provided.\n    <br><br>\n    <em>This condition reflects a <strong>\"black-box\"</strong> model, where outcomes are generated without transparency.</em>\n  </div>\n\n  <h4 style=\"margin-top: 28px; color: #b35a00;\">⚠️ Note</h4>\n  <div style=\"background-color: #fff3cd; padding: 12px; border-left: 4px solid #ffc107; border-radius: 4px;\">\n    The degree of transparency and human involvement varies between conditions.\n    Please assess each outcome critically, based on both the result and the decision process behind it.\n  </div>\n\n<div style=\"background-color: #eaf4ff; padding: 12px 16px; border-left: 4px solid #3399ff; border-radius: 4px; font-family: Arial, sans-serif; color: #2e3a59; font-size: 16px; margin-top: 28px;\">\n  📋 <strong>Reminder:</strong> Please confirm your participation to begin the study.\n</div>\n\n<p style=\"font-family: Arial, sans-serif; color: #2e3a59; font-size: 16px; margin-top: 24px;\">\n  I confirm that I have understood the study setup and agree to participate.\n</p>\n\n\n\n</div>\n",
+      "type": "html",
+      "layout": {
+        "row": "Row_1u72cxk",
+        "columns": null
+      },
+      "id": "Field_0pb1hej"
+    },
+    {
+      "label": "Confirmation",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1inaqw3",
+        "columns": null
+      },
+      "id": "Field_1gm0rnb",
+      "key": "continue",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

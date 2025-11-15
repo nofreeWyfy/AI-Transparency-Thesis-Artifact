@@ -1,0 +1,22 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "bce19be"
+  },
+  "schemaVersion": 18,
+  "id": "exit-screen-1kmk0fd",
+  "components": [
+    {
+      "content": "<div style=\"background-color: #f5f7fa; padding: 16px; border-left: 4px solid #999999; border-radius: 6px; font-family: Arial, sans-serif; color: #2e3a59; font-size: 16px; max-width: 800px; margin: 40px auto;\">\n  <strong>Thank you for your time.</strong><br><br>\n  You have chosen not to participate in the study. Your session has now ended.<br>\n  If you accessed this by mistake, you may close the window and start again later.\n</div>\n",
+      "type": "html",
+      "layout": {
+        "row": "Row_1dfcctk",
+        "columns": null
+      },
+      "id": "Field_0usv6bv"
+    }
+  ],
+  "type": "default"
+}

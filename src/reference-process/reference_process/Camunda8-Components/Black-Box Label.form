@@ -1,0 +1,202 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "5bb6870"
+  },
+  "schemaVersion": 19,
+  "id": "black-box-label-0xjhbvu",
+  "components": [
+    {
+      "content": "<div style=\"font-size: 14px; font-family: Arial, sans-serif; color: #2e3a59; font-weight: bold; margin-bottom: 1rem;\">\n   AI-automated Decision (No Explanation)\n</div>",
+      "type": "html",
+      "layout": {
+        "row": "Row_18n6pbh",
+        "columns": null
+      },
+      "id": "Field_05udcen"
+    },
+    {
+      "label": "Candidate Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_15b6uq5",
+        "columns": 6
+      },
+      "id": "Field_0ltycao",
+      "key": "result.name",
+      "readonly": "on"
+    },
+    {
+      "label": "Candidate Position",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_15b6uq5",
+        "columns": 10
+      },
+      "id": "Field_1trbl43",
+      "key": "result.position",
+      "readonly": true
+    },
+    {
+      "label": "Candidate Job Description",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1uffvfy",
+        "columns": null
+      },
+      "id": "Field_0arppch",
+      "key": "result.job_description",
+      "readonly": "on"
+    },
+    {
+      "label": "Self Evaluation",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0xkbynl",
+        "columns": null
+      },
+      "id": "Field_0uspvax",
+      "key": "result.report",
+      "readonly": "on",
+      "description": "Activities were documented by HR in an earlier interview stage."
+    },
+    {
+      "label": "Performance Level",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1vya35d",
+        "columns": 8
+      },
+      "id": "Field_13butxw",
+      "key": "result.performance_level",
+      "readonly": "on"
+    },
+    {
+      "label": "AI based Score",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1vya35d",
+        "columns": 8
+      },
+      "id": "Field_13vfzvs",
+      "key": "result.performance_score",
+      "readonly": "on"
+    },
+    {
+      "content": "<div style=\"font-size: 12px; font-family: sans-serif; color: #444; margin-bottom: 0.5rem;\">\n  <strong>Score Evaluation</strong>\n</div>\n\n<table style=\"width: 100%; border-collapse: collapse; font-size: 12px; font-family: sans-serif; color: #000;\">\n  <thead>\n    <tr>\n      <th style=\"border: 1px solid #ccc; padding: 0.4rem; text-align: left; background-color: #f0f0f0;\">Score Range</th>\n      <th style=\"border: 1px solid #ccc; padding: 0.4rem; text-align: left; background-color: #f0f0f0;\">Result</th>\n      <th style=\"border: 1px solid #ccc; padding: 0.4rem; text-align: left; background-color: #f0f0f0;\">Assessment</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">0 – 59</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Separation</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Unsatisfactory</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">60 – 84</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Stay</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Good</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">85 – 100</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Raise</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Excellent</td>\n    </tr>\n  </tbody>\n</table>\n",
+      "type": "html",
+      "layout": {
+        "row": "Row_1lutilg",
+        "columns": null
+      },
+      "id": "Field_0wegkfg"
+    },
+    {
+      "label": "Explanation",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ljkc00",
+        "columns": null
+      },
+      "id": "Field_1bv7awc",
+      "key": "explanation_understanding",
+      "defaultValue": "null",
+      "disabled": true,
+      "conditional": {
+        "hide": "=true"
+      },
+      "properties": { }
+    },
+    {
+      "label": "Decision",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ur4bdq",
+        "columns": null
+      },
+      "id": "Field_0w9uz4a",
+      "key": "result.decision",
+      "readonly": "on",
+      "description": "Note: This decision was generated automatically based on AI-evaluated input. While aligned with the defined scoring model, occasional inconsistencies may occur. Interpret with caution in sensitive HR contexts."
+    },
+    {
+      "label": "Do you agree with this decision?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1b429hk",
+        "columns": null
+      },
+      "id": "Field_1fob1u3",
+      "key": "agreement",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Do you want to change the decision?",
+      "values": [
+        {
+          "label": "No",
+          "value": "no"
+        },
+        {
+          "label": "Yes",
+          "value": "yes"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_0vj0qdb",
+        "columns": 7
+      },
+      "id": "Field_119qjki",
+      "key": "change_decision",
+      "validate": {
+        "required": true
+      },
+      "conditional": {
+        "hide": "=agreement != \"no\""
+      }
+    },
+    {
+      "label": "Update Employee Decision",
+      "values": [
+        {
+          "label": "Separation",
+          "value": "separation"
+        },
+        {
+          "label": "Stay",
+          "value": "stay"
+        },
+        {
+          "label": "Raise",
+          "value": "raise"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_0vj0qdb",
+        "columns": 9
+      },
+      "id": "Field_197m5ue",
+      "key": "decision_new",
+      "conditional": {
+        "hide": "=change_decision != \"yes\""
+      }
+    }
+  ],
+  "type": "default"
+}

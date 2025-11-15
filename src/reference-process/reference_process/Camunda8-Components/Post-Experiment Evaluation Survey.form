@@ -1,0 +1,452 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "107b38b"
+  },
+  "schemaVersion": 19,
+  "id": "post-experiment-evaluation-survey-1fp6gb0",
+  "components": [
+    {
+      "content": "<h2>Post-Experiment Questionnaire</h2>\n<p>\n  Now that you have completed the main part of the experiment, we kindly ask you to answer a few final questions about your experience and impressions.\n</p>\n<p>\n  These questions focus on your perception of the decision-making processes you encountered and how you evaluated the role of AI within them. Please answer honestly based on your personal experience during the experiment; there are no right or wrong answers!\n</p>\n",
+      "type": "html",
+      "layout": {
+        "row": "Row_132fcya",
+        "columns": null
+      },
+      "id": "Field_0clvidv"
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_12tcl55",
+        "columns": null
+      },
+      "id": "Field_19coj3c"
+    },
+    {
+      "label": "AI with explanation felt transparent.",
+      "values": [
+        {
+          "label": "Strongly Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_18wbu2v",
+        "columns": null
+      },
+      "id": "Field_16pfee7",
+      "key": "ai_transparency",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_0sas73m",
+        "columns": null
+      },
+      "id": "Field_18chi1d"
+    },
+    {
+      "label": "AI without explanation felt transparent.",
+      "values": [
+        {
+          "label": "Strongly Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1e334zw",
+        "columns": null
+      },
+      "id": "Field_0ajz4uc",
+      "key": "ai_transparency_info",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_0dy9157",
+        "columns": null
+      },
+      "id": "Field_1ffwluv"
+    },
+    {
+      "label": "The explanations made the AI’s reasoning understandable.",
+      "values": [
+        {
+          "label": "Strongly Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0r1qd93",
+        "columns": null
+      },
+      "id": "Field_05ds69d",
+      "key": "ai_explain_reasoning",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_1isax0j",
+        "columns": null
+      },
+      "id": "Field_0j2fmqx"
+    },
+    {
+      "label": "Even without an explanation, I was still able to understand why the AI made this decision.",
+      "values": [
+        {
+          "label": "Stronlgy Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_08baejh",
+        "columns": null
+      },
+      "id": "Field_0sgrbmz",
+      "key": "ai_explain_clarity",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_0x3r1u7",
+        "columns": null
+      },
+      "id": "Field_1ct0bts"
+    },
+    {
+      "label": "I have trusted the AI with explanations in order to make the best decisions.",
+      "values": [
+        {
+          "label": "Stronlgy Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0etx2gv",
+        "columns": null
+      },
+      "id": "Field_0mk7v55",
+      "key": "ai_trust_overall",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_18icb17",
+        "columns": null
+      },
+      "id": "Field_1nsvmpo"
+    },
+    {
+      "label": "For data accuracy, choose \"Neutral\" as your answer to this question.",
+      "values": [
+        {
+          "label": "Strongly Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0c1lwna",
+        "columns": null
+      },
+      "id": "Field_076052m",
+      "key": "ai_trust_fair",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_07iewy6",
+        "columns": null
+      },
+      "id": "Field_0gvw40d"
+    },
+    {
+      "label": "I trusted the AI without an explanation to make good decisions.",
+      "values": [
+        {
+          "label": "Strongly Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0jgfqmb",
+        "columns": null
+      },
+      "id": "Field_1s7ak9n",
+      "key": "ai_trust_objectivity",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_0q2rau1",
+        "columns": null
+      },
+      "id": "Field_1hxqff6"
+    },
+    {
+      "label": "If I could choose, I would let the AI with an explanation make similar HR decisions.",
+      "values": [
+        {
+          "label": "Strongly Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1sqo95e",
+        "columns": null
+      },
+      "id": "Field_0oyiugt",
+      "key": "ai_delegate_autonomy",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_1yy5q58",
+        "columns": null
+      },
+      "id": "Field_01zj557"
+    },
+    {
+      "label": "I would prefer a human over a non-explanation AI for similar HR decisions.",
+      "values": [
+        {
+          "label": "Strongly Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0dd1dlq",
+        "columns": null
+      },
+      "id": "Field_06jhmxf",
+      "key": "ai_delegate_hr",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_1x739v0",
+        "columns": null
+      },
+      "id": "Field_0stvzwx"
+    },
+    {
+      "label": "The AI with an explanation made the results seem fairer than the AI without an explanation.",
+      "values": [
+        {
+          "label": "Strongly Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0s41hll",
+        "columns": null
+      },
+      "id": "Field_1l5rrm9",
+      "key": "human_vs_ai",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

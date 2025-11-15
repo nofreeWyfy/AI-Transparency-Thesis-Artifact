@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/2.0" id="Definitions_1x0nwqv" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Web Modeler" exporterVersion="06c4498" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.7.0">
+  <description>This DMN table decides which decision to make for the employee (separation, stay, raise) based on the performance score.</description>
+  <decision id="Decision_02133v4" name="Employee Decision">
+    <decisionTable id="DecisionTable_0dm3h94">
+      <input id="Input_1" label="performance_score" biodi:width="192">
+        <inputExpression id="InputExpression_1" typeRef="number">
+          <text>performance_score</text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="decision_result" name="decision_result" typeRef="string" biodi:width="192" />
+      <rule id="DecisionRule_0gne0ar">
+        <description>"Performance is below the acceptable threshold; continued employment is not justified."</description>
+        <inputEntry id="UnaryTests_0pctyve">
+          <text>[0..59]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1u8p6zr">
+          <text>"separation"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1km22m2">
+        <description>"Performance is within an adequate range; no change in employment status is required."</description>
+        <inputEntry id="UnaryTests_11qibhp">
+          <text>[60..84]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_19sipb8">
+          <text>"stay"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1lw5t5d">
+        <description>"Performance is above expectations; a salary increase is recommended."</description>
+        <inputEntry id="UnaryTests_1os2li0">
+          <text>[85..100]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0os6pax">
+          <text>"raise"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Decision_02133v4">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

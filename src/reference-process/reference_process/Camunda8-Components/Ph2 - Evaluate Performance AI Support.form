@@ -1,0 +1,130 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "107b38b"
+  },
+  "schemaVersion": 19,
+  "id": "Form_lvymsyu",
+  "components": [
+    {
+      "content": "<div style=\"font-size: 14px; font-family: Arial, sans-serif; color: #2e3a59; font-weight: bold; margin-bottom: 1rem;\">\n  Employee 2\n</div>",
+      "type": "html",
+      "layout": {
+        "row": "Row_052ijtq",
+        "columns": null
+      },
+      "id": "Field_0vywopc"
+    },
+    {
+      "label": "Job Description",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0famkra",
+        "columns": null
+      },
+      "id": "Field_1nefpic",
+      "key": "phase2SelectedData.c2_job_description",
+      "readonly": "on"
+    },
+    {
+      "label": "Self Evaluation by Employee",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_18ieqs3",
+        "columns": null
+      },
+      "id": "Field_1orwsyy",
+      "key": "phase2SelectedData.c2_report",
+      "readonly": "on"
+    },
+    {
+      "content": "<div style=\"font-size: 12px; font-family: sans-serif; color: #444; margin-bottom: 0.5rem;\">\n  <strong>Score Evaluation</strong>\n</div>\n\n<table style=\"width: 100%; border-collapse: collapse; font-size: 12px; font-family: sans-serif; color: #000;\">\n  <thead>\n    <tr>\n      <th style=\"border: 1px solid #ccc; padding: 0.4rem; text-align: left; background-color: #f0f0f0;\">Score Range</th>\n      <th style=\"border: 1px solid #ccc; padding: 0.4rem; text-align: left; background-color: #f0f0f0;\">Result</th>\n      <th style=\"border: 1px solid #ccc; padding: 0.4rem; text-align: left; background-color: #f0f0f0;\">Assessment</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">0 – 59</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Separation</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Unsatisfactory</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">60 – 84</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Stay</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Good</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">85 – 100</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Raise</td>\n      <td style=\"border: 1px solid #ccc; padding: 0.4rem;\">Excellent</td>\n    </tr>\n  </tbody>\n</table>\n",
+      "type": "html",
+      "layout": {
+        "row": "Row_1hpgmba",
+        "columns": null
+      },
+      "id": "Field_1ma1i7s"
+    },
+    {
+      "label": "Suggested Performance Score",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0csewjs",
+        "columns": 9
+      },
+      "id": "Field_0i4nu2s",
+      "key": "phase2SelectedData.c2_performance_score",
+      "readonly": "on"
+    },
+    {
+      "label": "Decision",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0csewjs",
+        "columns": 7
+      },
+      "id": "Field_0wuvlwx",
+      "key": "ph2_decision_result_aisup",
+      "readonly": "on"
+    },
+    {
+      "label": "Would you like to modify the performance score?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0ww56rb",
+        "columns": null
+      },
+      "id": "Field_1npof8d",
+      "key": "modify"
+    },
+    {
+      "label": "Adjusted Performance Score",
+      "type": "number",
+      "layout": {
+        "row": "Row_0mfem9x",
+        "columns": 16
+      },
+      "id": "Field_1hk65if",
+      "key": "ph2_performance_score_aisup",
+      "validate": {
+        "required": true,
+        "min": "1",
+        "max": "100"
+      },
+      "conditional": {
+        "hide": "=modify != \"yes\""
+      }
+    },
+    {
+      "label": "Adjusted Explanation",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_11ty2g9",
+        "columns": 16
+      },
+      "id": "Field_1p8cp26",
+      "key": "ph2_explanation_aisup",
+      "validate": {
+        "required": true
+      },
+      "description": "Provide reasoning for the adjusted score.",
+      "conditional": {
+        "hide": "=modify != \"yes\""
+      }
+    }
+  ],
+  "type": "default"
+}

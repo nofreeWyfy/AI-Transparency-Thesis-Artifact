@@ -1,0 +1,22 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "12f4d61"
+  },
+  "schemaVersion": 19,
+  "id": "enter-study-process-0uh9fve",
+  "components": [
+    {
+      "content": "<h2 style=\"color: inherit;\">👋 Welcome to the Human-AI Evaluation Study</h2>\n\n<p style=\"color: inherit;\">\n  Please click <strong>Submit</strong> below to initiate the process.\n</p>\n\n<p style=\"color: inherit;\">\n  This step starts your session. Once submitted, you may close this window and return to the previous page.\n</p>\n\n<div style=\"background-color: rgba(0, 128, 0, 0.1); padding: 12px; border-left: 4px solid #2ecc71; border-radius: 4px; color: inherit;\">\n  ✅ This form only needs to be submitted once to begin the experiment.\n</div>\n",
+      "type": "html",
+      "layout": {
+        "row": "Row_0u28ye5",
+        "columns": null
+      },
+      "id": "Field_0k64kzz"
+    }
+  ],
+  "type": "default"
+}

@@ -1,0 +1,366 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "107b38b"
+  },
+  "schemaVersion": 19,
+  "id": "initial-user-profiling-13gus6v",
+  "components": [
+    {
+      "content": "<h2>Pre-Experiment Questionnaire (Main Phase 1)</h2>\n<p>\n  Before you begin the main experiment, we kindly ask you to answer a few short questions regarding your general attitude toward technology and decision-making.\n</p>\n<p>\n  Your responses are anonymous and will be used solely to contextualize the results of this study.\n</p>\n<p>\n  There are no right or wrong answers - please respond based on your personal impressions.\n</p>\n",
+      "type": "html",
+      "layout": {
+        "row": "Row_1vjbmbc",
+        "columns": null
+      },
+      "id": "Field_06auup1"
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_0i99197",
+        "columns": null
+      },
+      "id": "Field_0t2s1th"
+    },
+    {
+      "label": "I feel confident using unfamiliar digital tools without help.",
+      "values": [
+        {
+          "label": "Strongly Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0ebiquu",
+        "columns": 16
+      },
+      "id": "Field_06x3jk8",
+      "key": "tech_confidence",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_0qmohd9",
+        "columns": null
+      },
+      "id": "Field_19egfaj"
+    },
+    {
+      "label": "I am generally open to trying out new technologies.",
+      "values": [
+        {
+          "label": "Strongly Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_01hmiwn",
+        "columns": 16
+      },
+      "id": "Field_13pulna",
+      "key": "tech_openness",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_0j5vog6",
+        "columns": null
+      },
+      "id": "Field_0kjnd8q"
+    },
+    {
+      "label": "I trust algorithmic systems to make fair decisions.",
+      "values": [
+        {
+          "label": "Strongly Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_01h096p",
+        "columns": null
+      },
+      "id": "Field_0eibabj",
+      "key": "ai_trust",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_1o0jsg3",
+        "columns": null
+      },
+      "id": "Field_01xdfx0"
+    },
+    {
+      "label": "I believe human judgment is more reliable than algorithmic decision-making.",
+      "values": [
+        {
+          "label": "Strongly Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1ns1sxj",
+        "columns": null
+      },
+      "id": "Field_0dhveh3",
+      "key": "human_preference",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_1x1pikv",
+        "columns": null
+      },
+      "id": "Field_08t00f9"
+    },
+    {
+      "label": "I think automated decisions can be objective.",
+      "values": [
+        {
+          "label": "Strongly Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1xlgnp5",
+        "columns": null
+      },
+      "id": "Field_1153qpp",
+      "key": "ai_objectivity",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_1bmksd5",
+        "columns": null
+      },
+      "id": "Field_0jbikf8"
+    },
+    {
+      "label": "I feel responsible when I make decisions that affect others.",
+      "values": [
+        {
+          "label": "Strongly Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_11ucndt",
+        "columns": null
+      },
+      "id": "Field_1gd9epm",
+      "key": "responsibility",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_0enkd0s",
+        "columns": null
+      },
+      "id": "Field_1tckexw"
+    },
+    {
+      "label": "I have experience in evaluating or assessing other people’s performance.",
+      "values": [
+        {
+          "label": "Strongly Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0akvlue",
+        "columns": null
+      },
+      "id": "Field_139i3pt",
+      "key": "evaluation_experience",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_0iw57tx",
+        "columns": null
+      },
+      "id": "Field_05ynjyn"
+    },
+    {
+      "label": "I feel comfortable making final decisions without system assistance.",
+      "values": [
+        {
+          "label": "Strongly Disagree",
+          "value": "strongly_disagree"
+        },
+        {
+          "label": "Disagree",
+          "value": "disagree"
+        },
+        {
+          "label": "Neutral",
+          "value": "neutral"
+        },
+        {
+          "label": "Agree",
+          "value": "agree"
+        },
+        {
+          "label": "Strongly Agree",
+          "value": "strongly_agree"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0tqua5c",
+        "columns": null
+      },
+      "id": "Field_1e5gmfy",
+      "key": "independent_decision",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

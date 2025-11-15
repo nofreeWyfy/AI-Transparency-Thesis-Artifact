@@ -1,0 +1,66 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "107b38b"
+  },
+  "schemaVersion": 19,
+  "id": "review-outcome-1o1tyeq",
+  "components": [
+    {
+      "content": "<div style=\"font-size: 14px; font-family: Arial, sans-serif; color: #2e3a59; font-weight: bold; margin-bottom: 1rem;\">\n  Employee 1\n</div>",
+      "type": "html",
+      "layout": {
+        "row": "Row_0ivb8ef",
+        "columns": null
+      },
+      "id": "Field_05eqhlm"
+    },
+    {
+      "content": "<div style=\"font-size: 14px; font-family: Arial, sans-serif; color: #000000; margin-bottom: 1rem;\">\n  Below you can see how your chosen performance score translates into an outcome for the Employee 1.\n</div>\n",
+      "type": "html",
+      "layout": {
+        "row": "Row_0tyfhnx",
+        "columns": null
+      },
+      "id": "Field_0fxmcd0"
+    },
+    {
+      "label": "Your assigned score",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0760vs4",
+        "columns": null
+      },
+      "id": "Field_0cf4kpc",
+      "key": "ph2_performance_score_manual",
+      "readonly": true
+    },
+    {
+      "label": "Decision",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0760vs4",
+        "columns": null
+      },
+      "id": "Field_1bm4ub3",
+      "key": "ph2_decision_result_manual",
+      "readonly": true
+    },
+    {
+      "label": "Acknowledged",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1j7daww",
+        "columns": null
+      },
+      "id": "Field_0p8p8s7",
+      "key": "acknowledged_manual",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

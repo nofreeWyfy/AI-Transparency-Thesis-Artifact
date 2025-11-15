@@ -1,0 +1,79 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "107b38b"
+  },
+  "schemaVersion": 19,
+  "id": "evaluate-performance-0lnnpn2",
+  "components": [
+    {
+      "content": "<div style=\"font-size: 14px; font-family: Arial, sans-serif; color: #2e3a59; font-weight: bold; margin-bottom: 1rem;\">\n  Employee 3\n</div>",
+      "type": "html",
+      "layout": {
+        "row": "Row_0tkno6i",
+        "columns": null
+      },
+      "id": "Field_1mljzed"
+    },
+    {
+      "label": "Job Description",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0jrz2q2",
+        "columns": null
+      },
+      "id": "Field_0fm65ix",
+      "key": "phase2SelectedData.c3_job_description",
+      "readonly": true
+    },
+    {
+      "label": "Self Evaluation by Employee",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1uk4o2x",
+        "columns": null
+      },
+      "id": "Field_0yxfa9k",
+      "key": "phase2SelectedData.c3_report",
+      "readonly": "on"
+    },
+    {
+      "label": "Selected Performance Score",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_06ht67n",
+        "columns": null
+      },
+      "id": "Field_1h6u0fs",
+      "key": "phase2SelectedData.c3_performance_score",
+      "readonly": true
+    },
+    {
+      "label": "Decision",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_06ht67n",
+        "columns": null
+      },
+      "id": "Field_03igt7v",
+      "key": "ph2_decision_result_ai",
+      "readonly": "on"
+    },
+    {
+      "label": "Acknowledged",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1h74urt",
+        "columns": null
+      },
+      "id": "Field_1o78e37",
+      "key": "acknowledged_ai",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

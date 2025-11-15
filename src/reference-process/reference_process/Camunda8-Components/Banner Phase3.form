@@ -1,0 +1,35 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "8dbfcfe"
+  },
+  "schemaVersion": 19,
+  "id": "banner-for-phase-3-078axmy",
+  "components": [
+    {
+      "content": "<div style=\"font-family: Arial, sans-serif; color: #2e3a59; max-width: 800px; margin: auto; line-height: 1.6; font-size: 16px;\">\n\n  <h2 style=\"color: #1a355b; margin-bottom: 8px;\">🔍 Main Phase 3: Final Decision-Making Task</h2>\n\n  <p>\n    In this final phase of the study, you will again take on the role of an HR manager evaluating employees at <strong>Tarsiq Inc.</strong>.\n  </p>\n\n  <p>\n    You will be presented with a series of employee performance reports, and based on these, you will need to make final decisions, such as whether the employee should remain in their position, receive a raise, or be separated. <strong>Each case follows a specific decision-making setup</strong> (e.g., with or without AI involvement). The format and level of support may vary between tasks.\n  </p>\n\n  <h3 style=\"margin-top: 24px; color: #1a355b;\">What to Expect</h3>\n  <ul style=\"margin-top: 8px;\">\n    - Receive performance reports from different departments. <p></p>\n    - Make a judgment for each case based on the available information. <p></p>\n    - Experience a mix of decision-making modes, as introduced earlier. <p></p>\n  </ul>\n  <p>Please consider both the available information and the nature of the decision-making process in each case.</p>\n\n  <div style=\"background-color: #fff3cd; padding: 12px; border-left: 4px solid #ffc107; border-radius: 4px; font-family: Arial, sans-serif; color: #2e3a59; font-size: 16px; margin-top: 24px;\">\n    ⚠️ <strong>Important:</strong> The cases differ in how decisions are generated and presented. Please stay attentive and critically reflect on each situation.\n  </div>\n\n</div>\n",
+      "type": "html",
+      "layout": {
+        "row": "Row_0swzufs",
+        "columns": null
+      },
+      "id": "Field_0gu3qy8"
+    },
+    {
+      "label": "I confirm that I am ready to begin Phase 3",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1wnnstt",
+        "columns": null
+      },
+      "id": "Field_10xi51m",
+      "key": "confirmation_ph3",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

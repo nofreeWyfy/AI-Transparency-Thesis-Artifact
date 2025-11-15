@@ -1,0 +1,22 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "107b38b"
+  },
+  "schemaVersion": 19,
+  "id": "thank-you-exit-17cf89e",
+  "components": [
+    {
+      "content": "<div style=\"font-family: Arial, sans-serif; color: #2e3a59; max-width: 800px; margin: auto; line-height: 1.6; font-size: 16px; text-align: left;\">\n\n  <h2 style=\"color: #1a355b; margin-bottom: 8px;\">✅ Thank You for Participating!🥳</h2>\n\n  <p>\n    You have now completed the entire study, including all evaluation tasks and the final questionnaire.\n  </p>\n\n  <p>\n    We sincerely thank you for your time, effort, and thoughtful responses. Your participation contributes to important research on human-AI collaboration and decision-making in business contexts.\n  </p>\n\n  <p>\n    If you have any questions or are interested in the results of this study, feel free to contact me at: <p></p><a><strong>nibo00003@uni-saarland.de</strong></a>.\n  </p>\n<p>Please click <strong>Complete Task</strong> to finish the experiment. You may then close this window.</p>\n\n</div>\n",
+      "type": "html",
+      "layout": {
+        "row": "Row_0e39adi",
+        "columns": null
+      },
+      "id": "Field_01bvc4y"
+    }
+  ],
+  "type": "default"
+}

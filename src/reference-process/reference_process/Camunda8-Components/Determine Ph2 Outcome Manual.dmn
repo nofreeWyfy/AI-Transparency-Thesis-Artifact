@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_1nv59om" name="Determine Ph2 Outcome Manual" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Web Modeler" exporterVersion="5a6183d" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.7.0">
+  <decision id="Decision_1urrsyh" name="Decision 1">
+    <decisionTable id="DecisionTable_179ib64" hitPolicy="FIRST">
+      <input id="Input_1" label="ph2_performance_score_manual">
+        <inputExpression id="InputExpression_1" typeRef="number">
+          <text>ph2_performance_score_manual</text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="ph2_decision_result_manual" name="ph2_decision_result_manual" typeRef="string" />
+      <rule id="DecisionRule_09mg3j8">
+        <inputEntry id="UnaryTests_0ln9x8q">
+          <text>&lt;= 59</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0j3nu8m">
+          <text>"separation"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0095ne9">
+        <inputEntry id="UnaryTests_0x1hlwp">
+          <text>[60..84]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1w3mqod">
+          <text>"stay"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_07vdlk5">
+        <inputEntry id="UnaryTests_120a91s">
+          <text>[85..100]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0n4nf76">
+          <text>"raise"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Decision_1urrsyh">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

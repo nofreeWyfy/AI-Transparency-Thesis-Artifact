@@ -1,0 +1,45 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "107b38b"
+  },
+  "schemaVersion": 19,
+  "id": "Form_1xcu8zg",
+  "components": [
+    {
+      "content": "<!-- ===== BRIEFING ===== -->\n<div style=\"font-family: Arial, sans-serif; color:#2e3a59; max-width:860px; margin:auto; line-height:1.55; font-size:16px;\">\n  <h2 style=\"color:#1a355b; margin:0 0 10px;\">🧠 Welcome to the Study</h2>\n\n  <p>This short introduction will guide you through the setup of the experiment before you begin.</p>\n\n  <br>You will take the role of an HR manager at <strong>Tarsiq Inc.</strong>, a mid-sized company offering digital business services such as marketing automation, analytics, and enterprise software development.</br>\n\n  <p>Your task is to review <strong>fictional employee performance reports</strong> and decide about the employee’s future (e.g., continued employment, raise, or separation). Please work through the tasks in the order they are presented.</p>\n\n<br></br>\n  <p><strong>Before you begin, please note the following important points:</strong></p>\n  <div style=\"background:#f5f7fa; padding:12px 14px; border-left:4px solid #557a95; border-radius:4px; margin:14px 0;\">\n    <ul style=\"margin:0; padding-left:18px;\">\n      - <strong>No personal data is collected.</strong> All reports are synthetic, and responses are stored anonymously.\n      <p>- Your answers are used only for the Master’s Thesis and <strong>will not be shared</strong>.</p>\n      <p>- <strong>For students</strong>: Participation is voluntary and has <strong>no impact on your grade</strong>.</p>\n      <p>- The study takes about <strong>15–20 minutes</strong>.</p>\n<p>- Please complete each step carefully and in sequence.</p>\n    </ul>\n  </div>\n  <p style=\"margin-top:10px;\">Thank you for keeping these points in mind while completing the study.</p>\n</p>\n</div>\n",
+      "type": "html",
+      "layout": {
+        "row": "Row_1oyj4dx",
+        "columns": null
+      },
+      "id": "Field_1drk384"
+    },
+    {
+      "label": "I confirm my voluntary participation in this study:",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1pr3a63",
+        "columns": null
+      },
+      "id": "Field_17qyvzf",
+      "key": "continue",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}
